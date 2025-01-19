@@ -109,6 +109,6 @@ require __DIR__.'/adminauth.php';
 
 
 
-Route::get('/user/dashboard', function () { return view('user.dashboard.dashboard'); })->name('user.dashboard');
-Route::get('/user/profile', function () { return view('user.dashboard.profile'); })->name('user.profile');
-Route::get('/user/setting', function () { return view('user.dashboard.setting'); })->name('user.setting');
+Route::get('/user/dashboard', function () { return view('User.dashboard.dashboard'); })->name('user.dashboard');
+Route::get('/user/profile', function () { return view('User.dashboard.profile'); })->name('user.profile');
+Route::get('/user/setting', function () { return view('User.dashboard.setting'); })->name('user.setting');
