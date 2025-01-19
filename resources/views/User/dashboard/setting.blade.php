@@ -1,4 +1,4 @@
-@extends('user.dashboard.layouts.layout')
+@extends('User.dashboard.layouts.layout')
 
 @section('title', 'Setting')
 
