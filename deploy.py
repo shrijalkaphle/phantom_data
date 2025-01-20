@@ -4,6 +4,10 @@ sudo GIT_SSH_COMMAND='ssh -i /home/ubuntu/.ssh/id_rsa' git pull origin master
 
 echo "installing dependancy"
 composer install
+npm install
+
+echo "build tailwind data"
+npm run prod
 
 echo "Clear and cache configurations"
 php artisan config:clear
